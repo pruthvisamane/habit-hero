@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Habit Hero</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌟 Habit Hero</h1>
+    <p>Points: <span id="points">0</span></p>
+  </header>
+
+  <main>
+    <form id="habit-form">
+      <input type="text" id="habit-input" placeholder="Add a new habit..." required>
+      <button type="submit">➕ Add</button>
+    </form>
+
+    <ul id="habit-list"></ul>
+  </main>
+
+  <section id="badges">
+    <h2>🏅 Badges</h2>
+    <div id="badge-list">
+      <span id="bronze" class="locked">🥉 Bronze</span>
+      <span id="silver" class="locked">🥈 Silver</span>
+      <span id="gold" class="locked">🥇 Gold</span>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
